@@ -1,0 +1,41 @@
+@import 'antd/dist/antd.css';
+
+.App {
+	width: 80vw;
+	// background-color: aliceblue;
+	height: 100vh;
+	margin: 0px auto;
+	.main {
+		width: calc(100% - 500px);
+		margin: 0px auto;
+		padding-top: 100px;
+	}
+
+	.list {
+		background-color: white;
+		margin-top: 20px;
+		border-radius: 8px;
+	}
+	.deleteBtn {
+		margin-left: 10px;
+	}
+	.controlBtns {
+		// visibility: hidden;
+		width: 100px;
+	}
+	.edit {
+		width: 400px;
+		text-align: left;
+	}
+	.todo-text {
+		display: inline;
+		width: 60%;
+		text-align: left;
+	}
+	.list-item:hover {
+		background-color: rgba(211, 211, 211, 0.2);
+	}
+	.input {
+		margin-bottom: 20px;
+	}
+}
