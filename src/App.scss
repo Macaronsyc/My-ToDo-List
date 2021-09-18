@@ -2,7 +2,6 @@
 
 .App {
 	width: 80vw;
-	// background-color: aliceblue;
 	height: 100vh;
 	margin: 0px auto;
 	.main {
@@ -20,22 +19,30 @@
 		margin-left: 10px;
 	}
 	.controlBtns {
-		// visibility: hidden;
 		width: 100px;
 	}
 	.edit {
-		width: 400px;
+		width: 60%;
 		text-align: left;
 	}
 	.todo-text {
 		display: inline;
 		width: 60%;
 		text-align: left;
+		padding-left: 12px;
 	}
 	.list-item:hover {
 		background-color: rgba(211, 211, 211, 0.2);
 	}
 	.input {
 		margin-bottom: 20px;
+		border-radius: 8px;
+	}
+	.line-thru {
+		text-decoration: line-through;
+	}
+	.loading {
+		transform: translate(250px, 50px);
+		height: 300px;
 	}
 }
